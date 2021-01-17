@@ -1,0 +1,7 @@
+﻿a,b,c=input().split()
+a = int(a)
+b=int(b)
+c=int(c)
+case1 = (a if a<b else b)
+case2 = (case1 if case1 < c else c)
+print(case2)
